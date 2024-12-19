@@ -1,0 +1,69 @@
+<img> ,<input>  -->> void element 
+width x height essa likha hota hai
+text box -->> search bar ,,,,uske andar text like search = placeholder
+
+3 types of element
+1)block element = takes up the entire line in their container(div ki baat)     {<p>}
+2)inline-block element = only takes up as much space as needed{<img> <input>}
+3)inline element = justa text element -->> appear within a line of text
+.vid-sts , .vid-name{
+    esse multiple elements ko sath target kar sakte
+}
+
+<div> = division = just a box = containers = can contain any element
+its creates a box around the content/element 
+
+Roboto,Aerial ---> font stack,backup font if Roboto fail toh Aerial
+
+ /*width: 100%;
+            jo div ka size hoga usme aajaega*/
+
+<br> uss jaga se baki sab next line mai chala jaega
+
+kuch centre lana ho n voh text ho toh text align center ...also if button jesa hai toh p ka alag class n span(ya button) ka alag class 
+<div style="background-color: lightblue;">div 1</div>
+
+display: grid;
+grid-template-columns: 100px 90px; --->>> jitne column ho utne likhege 1st col 100px, 2nd col 90px
+agar number of element jyadda hoge num of col se toh voh next row mai chala jaega extra element
+
+fr = free space ... it takes up the remaining amt of space on this grid
+1fr 2fr relative hoga utna uss hisab se space milega 
+
+flexbox = similar to css grid but more flexible
+
+grid = regid layout
+flexbox = flexible layout
+justify-content = flexbox mai positioning adjust karega (horizontalyy)
+align-items = same bass vertically
+
+jab content size pe focus ho -->> flexbox
+flex-shrink:0; = dont shrink
+width:0; = shrink
+
+for css position -->> position: static;/*default hai*/
+top + bottom or left + right hojae toh stretch hojaega element
+height/width bhi  uss element ko resize karne mai kaam ata
+
+l/r/t/b = agar page ke sath resize chaiye
+h/w = agar na chaiye resize
+
+fixed = placed in the browser window
+absolute = placeed on the page yani voh page scroll ke sath move karega
+z-index:0; (default) jiska jyada hoga voh low wale ke upar aajaega
+ye batata konsa element front hoga konsa back
+jab fix ke andar abs dale toh voh fix ke relative mai hoga
+relative karne se we can let an element be normal n move with pg also we can put abs inside it 
+
+position static will always appear back of content 
+
+.side img = all img inside side element
+
+padding: vertical horizontal
+padding: top right bottom left 
+same for margin
+
+border: width style color
+
+semantic elements like header,nav(navigation),main
+is same as div but its good for reading code
